@@ -16,7 +16,7 @@
       .hero img {
         width: 100%;
       }
-      
+
       section {
         display: flex;
         flex-wrap: wrap;
@@ -29,19 +29,39 @@
         width: 50%;
         min-width: 300px;
       }
-      .separator{
+      .separator {
         width: 100%;
       }
-      footer{
-        
+      footer {
+        background: #ddd;
+        margin: 2rem auto;
+        padding: 1rem;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+      }
+      ul {
+        list-style-type: none;
+        display: flex;
+        gap: 1rem;
+      }
+      ul li {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+      ul li h6 {
+        font-size: 1rem;
       }
     </style>
   </head>
   <body>
     <div class="logo">
-       
-        <h1>The title of the website</h1>
-        <img src="https://placehold.co/75x75/EEE/31343C?font=poppins&text=Logo" alt="" />
+      <h1>The title of the website</h1>
+      <img
+        src="https://placehold.co/75x75/EEE/31343C?font=poppins&text=Logo"
+        alt=""
+      />
     </div>
     <div class="hero">
       <img src="https://placehold.co/700x150@2x.png" alt="" />
@@ -86,30 +106,49 @@
         </p>
       </div>
     </section>
-   
 
     <section class="media-section">
-        <div class="section-description">
-            <h1>The real section title</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              iste, consequuntur sit et aliquid praesentium pariatur omnis. Vel ab
-              voluptatem dolor molestiae enim error illum. Quia asperiores
-              perferendis temporibus hic reprehenderit dolorem magni. Enim inventore
-              officia non corporis dolores, culpa a eos placeat expedita unde maxime
-              neque ducimus, tempora eaque?
-            </p>
-          </div>
-        <div class="media">
-          <img
-            src="https://placehold.co/600x600/EEE/31343C?font=poppins&text=Square"
-            alt=""
-          />
-        </div>
-       
-      </section>
+      <div class="section-description">
+        <h1>The real section title</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          iste, consequuntur sit et aliquid praesentium pariatur omnis. Vel ab
+          voluptatem dolor molestiae enim error illum. Quia asperiores
+          perferendis temporibus hic reprehenderit dolorem magni. Enim inventore
+          officia non corporis dolores, culpa a eos placeat expedita unde maxime
+          neque ducimus, tempora eaque?
+        </p>
+      </div>
+      <div class="media">
+        <img
+          src="https://placehold.co/600x600/EEE/31343C?font=poppins&text=Square"
+          alt=""
+        />
+      </div>
+    </section>
     <footer>
+      <div>
+        <ul>
+          <li>
+            <h6>Email:</h6>
+            <span>abc@cba.com</span>
+          </li>
+          <li>
+            <h6>Phone:</h6>
+            <span>+223 546 456 45 60</span>
+          </li>
+          <li>
+            <h6>Address:</h6>
+            <span>Mad Max Fury Road</span>
+          </li>
+        </ul>
+        <p> Clement Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur similique quod a, maiores optio debitis odit sit cum velit quidem totam ex, et, eum temporibus? </p>
+      </div>
 
+      <img
+        src="https://placehold.co/200x200/EEE/31343C?font=poppins&text=Clement"
+        alt=""
+      />
     </footer>
   </body>
 </html>
