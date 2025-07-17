@@ -5,7 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Email template</title>
     <style>
-      .logo,
+      .logo {
+        margin: 2rem auto;
+        display: flex;
+        gap: 2rem;
+        justify-content: start;
+        align-items: center;
+      }
+      .certificates {
+        margin: 2rem auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+      }
+      .certificates .images {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+      }
+      .logo h1 {
+        text-align: center;
+        width: 100%;
+      }
       .hero {
         margin: 2rem auto;
         display: flex;
@@ -53,15 +76,21 @@
       ul li h6 {
         font-size: 1rem;
       }
+      .section-description h1{
+        font-size: 34px;
+      }
+      .section-description p{
+        font-size: 22px;
+      }
     </style>
   </head>
   <body>
     <div class="logo">
-      <h1>The title of the website</h1>
       <img
         src="https://placehold.co/75x75/EEE/31343C?font=poppins&text=Logo"
         alt=""
       />
+      <h1>Dear Endeavour Mining</h1>
     </div>
     <div class="hero">
       <img src="https://placehold.co/700x150@2x.png" alt="" />
@@ -77,13 +106,13 @@
       <div class="section-description">
         <h1>The real section title</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-          iste, consequuntur sit et aliquid praesentium pariatur omnis. Vel ab
-          voluptatem dolor molestiae enim error illum. Quia asperiores
-          perferendis temporibus hic reprehenderit dolorem magni. Enim inventore
-          officia non corporis dolores, culpa a eos placeat expedita unde maxime
-          neque ducimus, tempora eaque?
+          Madencilik endüstrisinde düşük kaliteli konveyör zincirlerinin kullanımı hızla önemli kayıplara neden olabilir: sık yaşanan üretim kesintileri, artan operasyon maliyetleri, üretkenlikte belirgin düşüş, çalışan güvenliğinin tehlikeye girmesi ve ekipman ömrünün ciddi oranda azalması gibi sonuçlar doğurabilir. Bu tür arızalar, genellikle maddi kayıplara ve müşteriler ile iş ortakları nezdinde itibar kaybına yol açmaktadır.
+          
         </p>
+        <p>
+          Bu sorunların farkında olan Zintaş, madencilik sektörünün zorlu gereksinimlerine uygun olarak tasarlanmış yüksek kaliteli konveyör zincirleri sunmaktadır. Ürünlerimiz sağlamlık, üstün dayanıklılık, kolay bakım imkânı ve artırılmış güvenlik özellikleriyle öne çıkar. İleri mühendislik teknikleri ve aşınmaya ve korozyona dayanıklı malzemeler sayesinde, Zintaş zincirleri sorunsuz ve kesintisiz çalışma sağlayarak operasyonel verimliliğinizi en üst düzeye çıkarır.
+        </p>
+       
       </div>
     </section>
     <img class="separator" src="https://placehold.co/700x75@2x.png" alt="" />
@@ -126,6 +155,23 @@
         />
       </div>
     </section>
+    <div class="certificates">
+      <h1>Our Credentials</h1>
+      <div class="images">
+        <img
+          src="https://placehold.co/300x600/EEE/31343C?font=poppins&text=cert"
+          alt=""
+        />
+        <img
+          src="https://placehold.co/300x600/EEE/31343C?font=poppins&text=cert"
+          alt=""
+        />
+        <img
+          src="https://placehold.co/300x600/EEE/31343C?font=poppins&text=cert"
+          alt=""
+        />
+      </div>
+    </div>
     <footer>
       <div>
         <ul>
@@ -142,7 +188,11 @@
             <span>Mad Max Fury Road</span>
           </li>
         </ul>
-        <p> Clement Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur similique quod a, maiores optio debitis odit sit cum velit quidem totam ex, et, eum temporibus? </p>
+        <p>
+          Clement Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Pariatur similique quod a, maiores optio debitis odit sit cum velit
+          quidem totam ex, et, eum temporibus?
+        </p>
       </div>
 
       <img
